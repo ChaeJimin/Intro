@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+  <title>Intro - Home</title>
+  <meta charset="utf-8">
+  <style>
+  body{
+    margin: 0px;
+  }
+  a {
+    color : black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    border-bottom : 1px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right: 1px solid gray;
+    width: 90px;
+    margin: 0px;
+    padding-left:40px;
+  }
+
+  #grid{
+    display:grid;
+    grid-template-columns:150px 1fr;
+  }
+  .article{
+    padding-left: 20px;
+    margin : 0;
+    position: sticky;
+    position: -webkit-sticky
+    
+  }
+  @media(max-width:500px) {
+    #grid{
+    display:block;
+    }
+    #grid ol{
+    border-right: none;
+    }
+    h1 {
+    border-bottom : none;
+    }
+  }
+  img {
+    border: 2px solid black;
+    display: inline-block;
+    float:left;
+    width: 30%;
+    height: 0%;
+  }
+  html{
+    background-color:beige;
+  }
+  .text1{
+    display: inline-block;
+    float: right;
+    width: 68%;
+    height: 50%;
+  }
+  .container1{
+    
+    border: 3px solid black;
+    margin: 10px 0 0 0;
+    display: inline-block;
+  } 
+  .profile-character{
+    background-color: beige;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .profile-character h3{
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+  .profile-character li{
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    color:white;
+  }
+  .profile-character li.positive{
+    background: url("Nohong2.jpg")  no-repeat top center / 100%;
+    margin-bottom: -200px;
+  }
+  .profile-character li.negative{
+    background: url("sim.gif")  no-repeat top center / 100%;
+    
+  }
+  </style>
+</head>
+<body>
+  <h1><a href="Intro1.html">Introduce Myself</a></h1>
+  <div id="grid">
+    <ul>
+    <li><a href="Intro1.html">Home</a></li>
+    <li><a href="Intro2.html">학과소개</a></li>
+    <li><a href="Intro3.html">성격</a></li>
+    <li><a href="Intro4.html">취미</a></li>
+    </ul>
+    <div class="article">
+      <h2>성격</h2>
+    <div class="container1" >
+      <img src="boy1.jpg">
+    <div class="text1">
+      MBTI : 4트 결과 <strong>ENFP</strong><br>
+      <br>
+      해석 : ENFP 성격 같은 경우에는 일단 재기발랄한 활동가라는 타이틀을 가지고 있는 만큼 아주 명랑한 부분을 강조하고 있습니다.<br> 정의로우면서 새로운 시도 또는 도전을 좋아하는 유형입니다.<br>
+      <br>
+      ENFP 유형 에 대해서 연애 하는 사람들은 어떨까요.일단 상당히 도전적이고 명랑하고 사교적인 성격이기
+      때문에 친구 관계에 있어서도 상당히 관계좋은데요.<br>
+      이것이 오히려 독이 될 수 있는 것이 연애하는 것에만 몰두하는 해바라기 스타일이 아니라 친구들과 두루두루 시간도 보내야 하고 자신의 라이프 생활이 매우 자유로운 것을 추구하는 사람이 많다는 것입니다.<br>
+      
+  </div>   
+  </div>
+  </div>
+    <div class="profile-character">
+        <h3 style="padding-left: 150px;">!!!!Character!!!!</h3>
+
+        <ul style="padding-left: 150px;">
+            <li class="positive"><strong>장점 : !긍정!</strong></li>
+            <li class="negative"><strong>단점 : ㅠ걱정 대마왕ㅠ</strong></li>
+        </ul>
+    </div>
+  </div>
+</body>
+</html>

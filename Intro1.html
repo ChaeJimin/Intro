@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <title>Intro - Home</title>
+  <meta charset="utf-8">
+  <style>
+  body{
+    margin: 0px;
+  }
+  a {
+    color : black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    border-bottom : 1px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right: 1px solid gray;
+    width: 90px;
+    margin: 0px;
+    padding-left:40px;
+  }
+
+  #grid{
+    display:grid;
+    grid-template-columns:150px 1fr;
+  }
+  .article{
+    padding-left: 20px;
+    margin : 0;
+    position: sticky;
+    position: -webkit-sticky
+    
+  }
+  @media(max-width:500px) {
+    #grid{
+    display:block;
+    }
+    #grid ol{
+    border-right: none;
+    }
+    h1 {
+    border-bottom : none;
+    }
+  }
+  img {
+    border: 2px solid black;
+    display: inline-block;
+    float:left;
+    width: 30%;
+    height: 0%;
+  }
+  html{
+    background-color:beige;
+  }
+  .text1{
+    display: inline-block;
+    float: right;
+    width: 68%;
+    height: 50%;
+  }
+  .container1{
+    
+    border: 3px solid black;
+    margin: 10px 0 0 0;
+    display: inline-block;
+  } 
+  </style>
+</head>
+<body>
+  <h1><a href="Intro1.html">Introduce Myself</a></h1>
+  <div id="grid">
+    <ul>
+    <li><a href="Intro1.html">Home</a></li>
+    <li><a href="Intro2.html">학과소개</a></li>
+    <li><a href="Intro3.html">성격</a></li>
+    <li><a href="Intro4.html">취미</a></li>
+    </ul>
+  <div class="article">
+    <h2>Profile-Home</h2>
+  <div class="container1" >
+    <img src="Pic.jpg.jpg">
+   <div class="text1">
+     이름 : 채지민<br>
+     나이 : 01.03.13.<br>
+     사는 곳(고향) : 경기도 부천시 상동<br>
+     키 : 17x<br>
+     몸무게 : 6x<br>
+     대학교 : 동국대학교 서울캠<br>
+     전공 : 경영정보학과 & 융합소프트웨어<br>
+  </div>   
+  </div>
+  </div>
+  
+  <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://introduce-myself.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</body>
+</html>
